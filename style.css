@@ -1,0 +1,71 @@
+* {
+    font-family: 'Poppins';
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(./fonts/trebuc-webfont.woff) format('woff2'),
+        url(./fonts/trebuc-webfont.woff2) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.body {
+    width: 50%;
+    margin: auto;
+}
+body {
+    background-color: black;
+}
+img {
+    width: 100%;
+}
+.Anna999 {
+    background: #24d366;
+    padding: 9px 10px;
+    border-radius: 35px;
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+    float: right;
+    right: 10px;
+    bottom: 10px;
+    position: fixed;
+    box-shadow: 0 0 6px #3a3a3a;
+}
+.Anna999 a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+.Anna999 img {
+    width: 20px;
+    margin-top: -4px;
+}
+.footer h2 {
+    margin-top: 7px;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+}
+@media (max-width: 575.98px) {
+    .body {
+        width: 94%;
+        margin: auto;
+    }
+}
+@media (max-width: 575.98px) {
+    .footer h2 {
+        margin-top: 7px;
+        font-size: 12px;
+        text-align: center;
+        color: #fff;
+        font-weight: 400;
+       
+    }
+}
